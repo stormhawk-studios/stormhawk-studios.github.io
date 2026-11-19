@@ -1,44 +1,342 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ZihinAc — Gizlilik politikası</title>
+  <title>Numeri — Privacy Policy / Gizlilik Politikası</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1a1a1a; }
-    h1 { font-size: 1.5rem; }
-    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1a1a1a; background: #fff; }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.8rem; }
+    h3 { font-size: 1rem; margin-top: 1.2rem; }
     a { color: #1565c0; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+    th, td { border: 1px solid #ccc; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }
+    th { background: #f2f2f2; }
+    .tablewrap { overflow-x: auto; }
+    hr { margin: 2.5rem 0; border: 0; border-top: 2px solid #ccc; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #121212; color: #e6e6e6; }
+      a { color: #90caf9; }
+      th { background: #222; }
+      th, td { border-color: #444; }
+      hr { border-top-color: #444; }
+    }
   </style>
 </head>
-<body>
-  <h1>ZihinAc: Quick Math Games — Gizlilik politikası</h1>
-  <p><strong>Geliştirici:</strong> StormHawk Studios · <strong>Son güncelleme:</strong> 23 Mayıs 2026 · <strong>Paket:</strong> com.zihinac.app</p>
+<body id="top">
 
-  <h2>Özet</h2>
-  <p>ZihinAc, zihinsel matematik oyunudur. Hesap oluşturmanız gerekmez. Oyun verileri çoğunlukla cihazınızda saklanır.</p>
+<p><a href="index.html">StormHawk Studios</a> · <a href="#tr">Türkçe</a> · <a href="delete-data.html">Delete data / Veri silme</a> · <a href="terms.html">Terms / Şartlar</a></p>
 
-  <h2>Toplanan veriler</h2>
-  <ul>
-    <li><strong>Yerel oyun verisi:</strong> skor, coin, ayarlar, istatistikler (cihazda)</li>
-    <li><strong>Reklam kimliği:</strong> Google AdMob (UMP onayı ile)</li>
-    <li><strong>Satın almalar:</strong> Google Play Billing</li>
-  </ul>
+<h1>Numeri — Privacy Policy</h1>
+<p><strong>Developer:</strong> StormHawk Studios · <strong>App package:</strong> com.zihinac.app · <strong>Last updated:</strong> 19 November 2026</p>
 
-  <h2>Üçüncü taraflar</h2>
-  <ul>
-    <li>Google AdMob — reklam</li>
-    <li>Google Play — uygulama içi satın alma</li>
-    <li>Google Firebase (Analytics / Crashlytics) — eklendiğinde bu sayfa güncellenir</li>
-  </ul>
+<h2>1. Summary</h2>
+<ul>
+  <li>Numeri is a maths learning and practice app. It is for people aged 13 and over. It is not directed at children.</li>
+  <li>Most of your progress stays on your device.</li>
+  <li>The app creates an anonymous account in the background. You can optionally link a Google account to keep your progress when you change phones.</li>
+  <li>If you play ranked matches, your nickname and scores are stored in our online database (Google Cloud Firestore) and shown to other players.</li>
+  <li>Analytics, performance measurement and personalised ads work only as allowed by Google's consent tool (UMP). Crash reports and app configuration are collected without a separate prompt.</li>
+  <li>You can delete your account and data inside the app: Settings → "Delete account and data".</li>
+</ul>
 
-  <h2>Çocuklar</h2>
-  <p>Genel kitle içindir; 13 yaş altına özel pazarlama yapılmaz.</p>
+<h2>2. Who we are</h2>
+<p>The data controller is StormHawk Studios, an individual developer based in Türkiye. Contact: <a href="mailto:stormhawk.developer@gmail.com">stormhawk.developer@gmail.com</a>.</p>
 
-  <h2>Veri silme</h2>
-  <p><a href="delete-data.html">Veri silme sayfası</a></p>
+<h2>3. Data we process</h2>
 
-  <h2>İletişim</h2>
-  <p><a href="mailto:stormhawk.developer@gmail.com">stormhawk.developer@gmail.com</a></p>
+<h3>3.1 Data that stays on your device</h3>
+<p>Progress, lessons, statistics, settings (sound, vibration, language, theme), reminder times, your nickname, daily energy counters, and a local record of what you bought. We do not receive this data. It is removed when you uninstall the app or use "Delete account and data".</p>
+
+<h3>3.2 Account (Firebase Authentication)</h3>
+<ul>
+  <li>When the app starts online, it signs you in anonymously. This creates a random user ID.</li>
+  <li>Optional: you can link your Google account. Firebase Authentication then keeps your Google account ID and the email address from the sign-in with your account. The app shows the email only to you. We do not use it to contact you.</li>
+  <li>Purpose: keep your leaderboard identity and let you restore the account on a new device.</li>
+</ul>
+
+<h3>3.3 Ranked leaderboard (Cloud Firestore)</h3>
+<ul>
+  <li>Stored: your user ID, nickname, season points, tier, group number, the start time and score of each ranked match, and the last update time.</li>
+  <li>Your nickname is generated automatically. You can change it. Do not use your real name.</li>
+  <li>Leaderboard entries can be read by other players. They see your nickname, tier and points.</li>
+  <li>Leaderboard data is stored in Google Cloud's European multi-region (eur3: Belgium and the Netherlands).</li>
+  <li>Entries that have not been updated for 28 days are deleted. The clean-up runs from the app, so it can happen later if nobody opens the app.</li>
+</ul>
+
+<h3>3.4 Analytics and performance (Firebase Analytics, Firebase Performance Monitoring)</h3>
+<ul>
+  <li>Data: screens viewed, lesson steps, ranked and practice sessions (for example answer time and correctness), offers shown and ad events (format, ad source, estimated revenue), a device-integrity flag, and a few non-personal properties (app language, whether you have a paid plan, how many lessons you finished). Firebase also adds standard data such as app instance ID, device model, operating system, app version and approximate location from IP address. Performance Monitoring measures start-up time and network request times.</li>
+  <li>These are switched off until the consent tool allows them. Where the law requires consent (for example in the European Economic Area and the United Kingdom), they start only after you agree. You can withdraw consent in the consent options where available, or by clearing app data.</li>
+  <li>Purpose: understand which lessons work, fix problems and keep the app fast.</li>
+</ul>
+
+<h3>3.5 Crash reports, app configuration and app check</h3>
+<ul>
+  <li><strong>Firebase Crashlytics</strong> collects crash and error reports: stack traces, device model, operating system, app state and a few labels (screen, mode, lesson ID). It also uses the Firebase installation ID. It is not linked to your nickname or Google account.</li>
+  <li><strong>Firebase Remote Config</strong> downloads settings (for example feature switches). Firebase receives your installation ID and basic device data for this.</li>
+  <li><strong>Firebase App Check with Play Integrity</strong> lets our online database accept requests only from the genuine app installed from Google Play. Google checks the device and app and returns a token.</li>
+  <li><strong>Firebase Installations</strong> creates the installation ID that these services use.</li>
+  <li>The app also does a local check for tampering (signature, installer, injection traces). Nothing leaves the device except a flag in analytics, if you consented.</li>
+</ul>
+
+<h3>3.6 Ads (Google AdMob and partner networks)</h3>
+<ul>
+  <li>Numeri shows ads unless you buy an ad-free plan. Ads are loaded through Google AdMob. AdMob mediation can call these ad networks: Unity Ads, Liftoff (Vungle) and Meta Audience Network.</li>
+  <li>The ad SDKs start only after Google's consent tool (UMP) allows ad requests.</li>
+  <li>Data collected by the ad SDKs: advertising ID, IP address, approximate location, device and app information, and ad interactions (views, taps, video views). Which data a network collects is decided by that network. See their policies below.</li>
+  <li>We set the maximum ad content rating to "G". We do not know or collect your age and do not mark users as children or teens.</li>
+  <li>You can reset or delete your advertising ID in Android Settings → Privacy → Ads, and manage ad personalisation at <a href="https://myadcenter.google.com/" rel="noopener">Google My Ad Center</a>.</li>
+</ul>
+
+<h3>3.7 Purchases (Google Play Billing)</h3>
+<ul>
+  <li>Payments and subscriptions are handled by Google Play. We do not receive your card or payment details.</li>
+  <li>The app learns from Google Play which products you own (product ID and purchase status) and keeps a local record on your device so it can unlock the features.</li>
+</ul>
+
+<h3>3.8 Other</h3>
+<ul>
+  <li><strong>Trusted time (Google Play services):</strong> the app asks Google Play services for a reliable time so that daily limits cannot be changed by setting the phone clock.</li>
+  <li><strong>Sign in with Google (Android Credential Manager):</strong> used only if you choose to link Google.</li>
+  <li><strong>In-app review and update (Google Play):</strong> Google Play may show a review or update prompt. Google handles this.</li>
+  <li><strong>Reminders:</strong> reminder notifications are scheduled on your device. We do not use push notification servers.</li>
+</ul>
+
+<h3>3.9 Android permissions</h3>
+<ul>
+  <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>: ranked play, ads, analytics, purchases.</li>
+  <li><code>POST_NOTIFICATIONS</code>: optional reminders.</li>
+  <li><code>RECEIVE_BOOT_COMPLETED</code>: set reminders again after the phone restarts.</li>
+  <li><code>VIBRATE</code>: vibration feedback.</li>
+  <li>The ad, billing and background-work libraries add their own permissions, such as the advertising ID permission, Play billing, and wake lock.</li>
+  <li>The app does not ask for location, camera, microphone, contacts, photos or files.</li>
+</ul>
+
+<h2>4. Purposes and legal bases</h2>
+<p>In plain words, under the GDPR and the Turkish Personal Data Protection Law (KVKK, Law No. 6698):</p>
+<div class="tablewrap">
+<table>
+  <tr><th>Purpose</th><th>Legal basis</th></tr>
+  <tr><td>Anonymous account, leaderboard, restoring your account, purchases, fair play checks</td><td>Needed to provide the service you asked for (contract). Fair play also serves our legitimate interest.</td></tr>
+  <tr><td>Analytics and performance measurement</td><td>Your consent (UMP). You can withdraw it at any time.</td></tr>
+  <tr><td>Showing and measuring ads, personalised ads</td><td>Your consent (UMP) where required. Ad networks may use other bases described in their policies.</td></tr>
+  <tr><td>Crash reports, remote configuration, app check, security</td><td>Our legitimate interest in keeping the app working and secure.</td></tr>
+  <tr><td>Legal duties (for example tax records of paid plans, answering requests)</td><td>Legal obligation.</td></tr>
+</table>
+</div>
+
+<h2>5. Consent</h2>
+<p>When you first open the app, Google's User Messaging Platform (UMP) may show a consent form. Its result decides whether ad SDKs start and whether analytics and performance measurement run. Declining does not block lessons or play.</p>
+
+<h2>6. Who receives data (third parties)</h2>
+<p>These companies process data for us or on their own behalf. Their own privacy policies apply:</p>
+<ul>
+  <li>Google (Firebase, AdMob, UMP, Google Play, Play Services): <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> · <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy</a> · <a href="https://policies.google.com/technologies/ads" rel="noopener">Google advertising</a></li>
+  <li>Unity Ads: <a href="https://unity.com/legal/privacy-policy" rel="noopener">Unity Privacy Policy</a></li>
+  <li>Liftoff (Vungle): <a href="https://liftoff.io/privacy-policy/" rel="noopener">Liftoff Privacy Policy</a></li>
+  <li>Meta Audience Network: <a href="https://www.facebook.com/privacy/policy/" rel="noopener">Meta Privacy Policy</a></li>
+</ul>
+<p>We do not sell personal data. Other players see only your nickname and ranked results.</p>
+
+<h2>7. Transfers abroad</h2>
+<p>These services run on servers in several countries, including outside Türkiye and the European Economic Area, for example in the United States. Providers rely on safeguards such as standard contractual clauses.</p>
+
+<h2>8. How long we keep data</h2>
+<div class="tablewrap">
+<table>
+  <tr><th>Data</th><th>Retention</th></tr>
+  <tr><td>Data on your device</td><td>Until you uninstall the app or delete your data in the app.</td></tr>
+  <tr><td>Anonymous account and Google link</td><td>Until you delete your account.</td></tr>
+  <tr><td>Leaderboard entry</td><td>Deleted after 28 days without an update, or when you delete your account.</td></tr>
+  <tr><td>Analytics events</td><td>Up to 2 months.</td></tr>
+  <tr><td>Crash reports</td><td>Up to 90 days.</td></tr>
+  <tr><td>Firebase installation ID</td><td>Removed when you delete your account. Backups can hold it for up to 180 days.</td></tr>
+  <tr><td>Ad data</td><td>According to each ad network's policy.</td></tr>
+  <tr><td>Purchase records</td><td>Kept by Google Play under its own rules.</td></tr>
+</table>
+</div>
+
+<h2>9. Your rights</h2>
+<p>You can ask us to: confirm whether we process your data and give a copy or information; correct it; delete it; restrict or object to processing; and move it to another service where the law gives you that right. You can withdraw consent at any time. This does not affect earlier processing. Under KVKK Article 11 you also have the right to learn the purposes, the recipients and to claim compensation for damage.</p>
+<p>Write to <a href="mailto:stormhawk.developer@gmail.com">stormhawk.developer@gmail.com</a>. We answer within 30 days. You can also complain to your data protection authority, such as the Turkish Personal Data Protection Authority (KVKK) or the authority in your country.</p>
+
+<h2>10. Deleting your data</h2>
+<p>In the app: Settings → "Delete account and data". Or see the <a href="delete-data.html">data deletion page</a>. If you have an active subscription, cancel it separately in Google Play.</p>
+
+<h2>11. Children</h2>
+<p>Numeri is for people aged 13 and over. It is a general audience app and is not directed at children. We do not ask for your age. If you think a child under 13 uses the app, write to us and we will delete the data we can identify.</p>
+
+<h2>12. Security</h2>
+<p>Data travels over HTTPS. Our database rules allow each user to write only their own leaderboard entry. App Check limits access to the genuine app. No system is fully secure.</p>
+
+<h2>13. Android backup</h2>
+<p>If Android backup is on, Android can back up some local app data (progress and settings) to your Google Drive. You control this in your phone settings. We cannot read your backup.</p>
+
+<h2>14. Changes</h2>
+<p>If we change this policy, we update the date above.</p>
+
+<h2>15. Contact</h2>
+<p>StormHawk Studios — <a href="mailto:stormhawk.developer@gmail.com">stormhawk.developer@gmail.com</a></p>
+
+<hr id="tr" />
+
+<div lang="tr">
+<p><a href="#top">English</a> · <a href="index.html">StormHawk Studios</a> · <a href="delete-data.html">Veri silme</a> · <a href="terms.html">Kullanım Şartları</a></p>
+
+<h1>Numeri — Gizlilik Politikası</h1>
+<p><strong>Geliştirici:</strong> StormHawk Studios · <strong>Paket:</strong> com.zihinac.app · <strong>Son güncelleme:</strong> 19 Kasım 2026</p>
+
+<h2>1. Özet</h2>
+<ul>
+  <li>Numeri, matematik öğrenme ve alıştırma uygulamasıdır. 13 yaş ve üstü içindir. Çocuklara yönelik değildir.</li>
+  <li>İlerlemenin çoğu cihazında kalır.</li>
+  <li>Uygulama arka planda anonim bir hesap açar. Telefon değiştirince ilerlemen kalsın istersen Google hesabı bağlayabilirsin.</li>
+  <li>Dereceli maç oynarsan takma adın ve puanların çevrimiçi veritabanımızda (Google Cloud Firestore) saklanır ve diğer oyunculara gösterilir.</li>
+  <li>Analitik, performans ölçümü ve kişiselleştirilmiş reklam yalnızca Google'ın onay aracının (UMP) izin verdiği ölçüde çalışır. Çökme raporları ve uygulama ayarları ayrı bir soru sorulmadan alınır.</li>
+  <li>Hesabını ve verilerini uygulamadan silebilirsin: Ayarlar → "Hesabı ve verileri sil".</li>
+</ul>
+
+<h2>2. Biz kimiz</h2>
+<p>Veri sorumlusu, Türkiye'de yerleşik şahıs geliştirici StormHawk Studios'tur. İletişim: <a href="mailto:stormhawk.developer@gmail.com">stormhawk.developer@gmail.com</a>.</p>
+
+<h2>3. İşlediğimiz veriler</h2>
+
+<h3>3.1 Cihazında kalan veriler</h3>
+<p>İlerleme, dersler, istatistikler, ayarlar (ses, titreşim, dil, tema), hatırlatma saatleri, takma adın, günlük enerji sayaçları ve ne satın aldığına dair yerel kayıt. Bu verileri biz almayız. Uygulamayı kaldırınca ya da "Hesabı ve verileri sil" ile silinir.</p>
+
+<h3>3.2 Hesap (Firebase Authentication)</h3>
+<ul>
+  <li>Uygulama çevrimiçi açılınca seni anonim olarak giriş yaptırır. Bu, rastgele bir kullanıcı kimliği oluşturur.</li>
+  <li>İsteğe bağlı: Google hesabını bağlayabilirsin. Firebase Authentication bu durumda Google hesap kimliğini ve girişten gelen e-posta adresini hesabınla birlikte tutar. Uygulama e-postayı yalnızca sana gösterir. Seninle iletişim kurmak için kullanmayız.</li>
+  <li>Amaç: sıralamadaki kimliğini korumak ve hesabını yeni cihazda geri getirmeni sağlamak.</li>
+</ul>
+
+<h3>3.3 Dereceli sıralama (Cloud Firestore)</h3>
+<ul>
+  <li>Saklanan: kullanıcı kimliğin, takma adın, sezon puanın, kademen, grup numaran, her dereceli maçın başlama zamanı ve puanı, son güncelleme zamanı.</li>
+  <li>Takma adın otomatik üretilir. Değiştirebilirsin. Gerçek adını kullanma.</li>
+  <li>Sıralama kayıtlarını diğer oyuncular okuyabilir. Takma adını, kademeni ve puanını görürler.</li>
+  <li>Sıralama verisi Google Cloud'un Avrupa çoklu bölgesinde (eur3: Belçika ve Hollanda) saklanır.</li>
+  <li>28 gün güncellenmeyen kayıtlar silinir. Temizlik uygulamadan çalışır; kimse uygulamayı açmazsa daha geç olabilir.</li>
+</ul>
+
+<h3>3.4 Analitik ve performans (Firebase Analytics, Firebase Performance Monitoring)</h3>
+<ul>
+  <li>Veriler: görüntülenen ekranlar, ders adımları, dereceli ve alıştırma oturumları (örneğin cevap süresi ve doğruluk), gösterilen teklifler ve reklam olayları (biçim, reklam kaynağı, tahmini gelir), cihaz bütünlüğü işareti ve kişisel olmayan birkaç özellik (uygulama dili, ücretli planın olup olmadığı, bitirdiğin ders sayısı). Firebase ayrıca uygulama örneği kimliği, cihaz modeli, işletim sistemi, uygulama sürümü ve IP adresinden yaklaşık konum gibi standart veriler ekler. Performance Monitoring açılış süresini ve ağ isteği sürelerini ölçer.</li>
+  <li>Onay aracı izin verene kadar kapalıdır. Yasanın onay istediği yerlerde (örneğin Avrupa Ekonomik Alanı ve Birleşik Krallık) yalnızca sen kabul ettikten sonra başlar. Onayı, varsa onay seçeneklerinden ya da uygulama verisini silerek geri alabilirsin.</li>
+  <li>Amaç: hangi derslerin işe yaradığını anlamak, sorunları düzeltmek ve uygulamayı hızlı tutmak.</li>
+</ul>
+
+<h3>3.5 Çökme raporları, uygulama ayarları ve uygulama doğrulama</h3>
+<ul>
+  <li><strong>Firebase Crashlytics</strong> çökme ve hata raporlarını toplar: yığın izi, cihaz modeli, işletim sistemi, uygulama durumu ve birkaç etiket (ekran, mod, ders kimliği). Firebase kurulum kimliğini de kullanır. Takma adına ya da Google hesabına bağlanmaz.</li>
+  <li><strong>Firebase Remote Config</strong> ayarları indirir (örneğin özellik anahtarları). Bunun için Firebase kurulum kimliğini ve temel cihaz verisini alır.</li>
+  <li><strong>Play Integrity ile Firebase App Check</strong>, çevrimiçi veritabanımızın yalnızca Google Play'den kurulmuş gerçek uygulamadan gelen istekleri kabul etmesini sağlar. Google cihazı ve uygulamayı denetler, bir belirteç döndürür.</li>
+  <li><strong>Firebase Installations</strong>, bu hizmetlerin kullandığı kurulum kimliğini üretir.</li>
+  <li>Uygulama ayrıca cihazda kurcalama denetimi yapar (imza, yükleyici, enjeksiyon izleri). Onay verdiysen, analitikteki bir işaret dışında hiçbir şey cihazdan çıkmaz.</li>
+</ul>
+
+<h3>3.6 Reklamlar (Google AdMob ve ortak ağlar)</h3>
+<ul>
+  <li>Reklamsız plan almadıkça Numeri reklam gösterir. Reklamlar Google AdMob ile yüklenir. AdMob aracılığı şu reklam ağlarını çağırabilir: Unity Ads, Liftoff (Vungle) ve Meta Audience Network.</li>
+  <li>Reklam SDK'ları yalnızca Google'ın onay aracı (UMP) reklam isteğine izin verdikten sonra başlar.</li>
+  <li>Reklam SDK'larının topladığı veriler: reklam kimliği, IP adresi, yaklaşık konum, cihaz ve uygulama bilgisi, reklam etkileşimleri (görüntüleme, dokunma, video izleme). Hangi verinin toplanacağını her ağ kendisi belirler. Aşağıdaki politikalara bak.</li>
+  <li>En yüksek reklam içerik derecesini "G" olarak ayarlıyoruz. Yaşını bilmiyoruz ve toplamıyoruz; kullanıcıları çocuk ya da genç olarak işaretlemiyoruz.</li>
+  <li>Reklam kimliğini Android Ayarlar → Gizlilik → Reklamlar bölümünden sıfırlayabilir ya da silebilir, reklam kişiselleştirmeyi <a href="https://myadcenter.google.com/" rel="noopener">Google Reklam Merkezim</a>'den yönetebilirsin.</li>
+</ul>
+
+<h3>3.7 Satın almalar (Google Play Faturalama)</h3>
+<ul>
+  <li>Ödemeleri ve abonelikleri Google Play yürütür. Kart ya da ödeme bilgilerini biz almayız.</li>
+  <li>Uygulama, Google Play'den hangi ürünlere sahip olduğunu (ürün kimliği ve satın alma durumu) öğrenir ve özellikleri açmak için cihazında yerel bir kayıt tutar.</li>
+</ul>
+
+<h3>3.8 Diğer</h3>
+<ul>
+  <li><strong>Güvenilir zaman (Google Play hizmetleri):</strong> günlük sınırlar telefon saati değiştirilerek aşılmasın diye uygulama Google Play hizmetlerinden güvenilir saat ister.</li>
+  <li><strong>Google ile giriş (Android Credential Manager):</strong> yalnızca Google'ı bağlamayı seçersen kullanılır.</li>
+  <li><strong>Uygulama içi değerlendirme ve güncelleme (Google Play):</strong> Google Play bir değerlendirme ya da güncelleme istemi gösterebilir. Bunu Google yürütür.</li>
+  <li><strong>Hatırlatmalar:</strong> hatırlatma bildirimleri cihazında zamanlanır. Anlık bildirim sunucusu kullanmayız.</li>
+</ul>
+
+<h3>3.9 Android izinleri</h3>
+<ul>
+  <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>: dereceli oyun, reklam, analitik, satın alma.</li>
+  <li><code>POST_NOTIFICATIONS</code>: isteğe bağlı hatırlatmalar.</li>
+  <li><code>RECEIVE_BOOT_COMPLETED</code>: telefon yeniden başlayınca hatırlatmaları tekrar kurmak.</li>
+  <li><code>VIBRATE</code>: titreşim geri bildirimi.</li>
+  <li>Reklam, faturalama ve arka plan iş kitaplıkları reklam kimliği izni, Play faturalama ve uyanık tutma gibi kendi izinlerini ekler.</li>
+  <li>Uygulama konum, kamera, mikrofon, rehber, fotoğraf ya da dosya izni istemez.</li>
+</ul>
+
+<h2>4. Amaçlar ve hukuki sebepler</h2>
+<p>Sade anlatımla, GDPR ve 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında:</p>
+<div class="tablewrap">
+<table>
+  <tr><th>Amaç</th><th>Hukuki sebep</th></tr>
+  <tr><td>Anonim hesap, sıralama, hesabı geri getirme, satın almalar, adil oyun denetimleri</td><td>İstediğin hizmetin sunulması için gereklidir (sözleşme). Adil oyun aynı zamanda meşru menfaatimizdir.</td></tr>
+  <tr><td>Analitik ve performans ölçümü</td><td>Açık rızan (UMP). İstediğin zaman geri alabilirsin.</td></tr>
+  <tr><td>Reklam gösterme ve ölçme, kişiselleştirilmiş reklam</td><td>Gereken yerlerde açık rızan (UMP). Reklam ağları kendi politikalarında başka sebepler belirtebilir.</td></tr>
+  <tr><td>Çökme raporları, uzaktan ayar, uygulama doğrulama, güvenlik</td><td>Uygulamayı çalışır ve güvenli tutmaktaki meşru menfaatimiz.</td></tr>
+  <tr><td>Yasal yükümlülükler (örneğin ücretli planların vergi kayıtları, taleplere yanıt)</td><td>Hukuki yükümlülük.</td></tr>
+</table>
+</div>
+
+<h2>5. Onay</h2>
+<p>Uygulamayı ilk açtığında Google'ın Kullanıcı Mesajlaşma Platformu (UMP) bir onay formu gösterebilir. Sonucu, reklam SDK'larının başlayıp başlamayacağını ve analitik ile performans ölçümünün çalışıp çalışmayacağını belirler. Reddetmek ders almanı ya da oynamanı engellemez.</p>
+
+<h2>6. Veriyi kimler alır (üçüncü taraflar)</h2>
+<p>Bu şirketler bizim adımıza ya da kendi adlarına veri işler. Kendi gizlilik politikaları geçerlidir:</p>
+<ul>
+  <li>Google (Firebase, AdMob, UMP, Google Play, Play Hizmetleri): <a href="https://policies.google.com/privacy" rel="noopener">Google Gizlilik Politikası</a> · <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase gizliliği</a> · <a href="https://policies.google.com/technologies/ads" rel="noopener">Google reklamcılık</a></li>
+  <li>Unity Ads: <a href="https://unity.com/legal/privacy-policy" rel="noopener">Unity Gizlilik Politikası</a></li>
+  <li>Liftoff (Vungle): <a href="https://liftoff.io/privacy-policy/" rel="noopener">Liftoff Gizlilik Politikası</a></li>
+  <li>Meta Audience Network: <a href="https://www.facebook.com/privacy/policy/" rel="noopener">Meta Gizlilik Politikası</a></li>
+</ul>
+<p>Kişisel veriyi satmıyoruz. Diğer oyuncular yalnızca takma adını ve dereceli sonuçlarını görür.</p>
+
+<h2>7. Yurt dışına aktarım</h2>
+<p>Bu hizmetler, Türkiye ve Avrupa Ekonomik Alanı dışında da olmak üzere birçok ülkedeki sunucularda çalışır, örneğin Amerika Birleşik Devletleri. Sağlayıcılar standart sözleşme maddeleri gibi güvencelere dayanır.</p>
+
+<h2>8. Ne kadar saklıyoruz</h2>
+<div class="tablewrap">
+<table>
+  <tr><th>Veri</th><th>Saklama süresi</th></tr>
+  <tr><td>Cihazındaki veri</td><td>Uygulamayı kaldırana ya da uygulamada verini silene kadar.</td></tr>
+  <tr><td>Anonim hesap ve Google bağlantısı</td><td>Hesabını silene kadar.</td></tr>
+  <tr><td>Sıralama kaydı</td><td>28 gün güncellenmezse ya da hesabını silince silinir.</td></tr>
+  <tr><td>Analitik olayları</td><td>En çok 2 ay.</td></tr>
+  <tr><td>Çökme raporları</td><td>En çok 90 gün.</td></tr>
+  <tr><td>Firebase kurulum kimliği</td><td>Hesabını silince silinir. Yedeklerde en çok 180 gün kalabilir.</td></tr>
+  <tr><td>Reklam verisi</td><td>Her reklam ağının kendi politikasına göre.</td></tr>
+  <tr><td>Satın alma kayıtları</td><td>Google Play'in kendi kurallarına göre Google'da tutulur.</td></tr>
+</table>
+</div>
+
+<h2>9. Haklarını nasıl kullanırsın</h2>
+<p>Şunları isteyebilirsin: verinin işlenip işlenmediğini öğrenmek ve kopya ya da bilgi almak; düzeltilmesini; silinmesini; işlemenin kısıtlanmasını ya da buna itiraz etmeyi; yasanın tanıdığı yerlerde başka bir hizmete taşınmasını. Rızanı her zaman geri alabilirsin; bu önceki işlemeyi etkilemez. KVKK madde 11 uyarınca ayrıca işleme amaçlarını, aktarılan kişileri öğrenme ve zarar varsa tazminat isteme hakkın vardır.</p>
+<p><a href="mailto:stormhawk.developer@gmail.com">stormhawk.developer@gmail.com</a> adresine yaz. 30 gün içinde yanıtlarız. Kişisel Verileri Koruma Kurumu'na ya da kendi ülkendeki veri koruma otoritesine de şikâyet edebilirsin.</p>
+
+<h2>10. Verilerini silme</h2>
+<p>Uygulamada: Ayarlar → "Hesabı ve verileri sil". Ya da <a href="delete-data.html">veri silme sayfasına</a> bak. Etkin bir aboneliğin varsa onu Google Play'de ayrıca iptal et.</p>
+
+<h2>11. Çocuklar</h2>
+<p>Numeri 13 yaş ve üstü içindir. Genel kitleye yönelik bir uygulamadır, çocuklara yönelik değildir. Yaşını sormayız. 13 yaşından küçük bir çocuğun uygulamayı kullandığını düşünüyorsan bize yaz; tanımlayabildiğimiz veriyi sileriz.</p>
+
+<h2>12. Güvenlik</h2>
+<p>Veriler HTTPS ile taşınır. Veritabanı kurallarımız her kullanıcının yalnızca kendi sıralama kaydını yazmasına izin verir. App Check erişimi gerçek uygulamayla sınırlar. Hiçbir sistem tamamen güvenli değildir.</p>
+
+<h2>13. Android yedekleme</h2>
+<p>Android yedekleme açıksa, Android bazı yerel uygulama verilerini (ilerleme ve ayarlar) Google Drive'ına yedekleyebilir. Bunu telefon ayarlarından sen yönetirsin. Yedeğini biz okuyamayız.</p>
+
+<h2>14. Değişiklikler</h2>
+<p>Bu politikayı değiştirirsek yukarıdaki tarihi güncelleriz.</p>
+
+<h2>15. İletişim</h2>
+<p>StormHawk Studios — <a href="mailto:stormhawk.developer@gmail.com">stormhawk.developer@gmail.com</a></p>
+</div>
+
 </body>
 </html>
